@@ -1,0 +1,33 @@
+{
+	"name": "auto-todo",
+	"version": "0.1.0",
+	"description": "Automatically generate code that does the job!",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc && prettier -w ./dist --ignore-path",
+		"test": "node --loader tsx --test test/test.ts"
+	},
+	"author": "esthedebeste",
+	"license": "MIT",
+	"type": "module",
+	"dependencies": {
+		"astring": "^1.8.6"
+	},
+	"devDependencies": {
+		"@types/estree": "^1.0.1",
+		"@types/node": "^20.4.2",
+		"@typescript-eslint/eslint-plugin": "^6.0.0",
+		"@typescript-eslint/parser": "^6.0.0",
+		"eslint": "^8.45.0",
+		"eslint-config-prettier": "^8.8.0",
+		"eslint-plugin-unicorn": "^48.0.0",
+		"prettier": "^3.0.0",
+		"tsx": "^3.12.7",
+		"typescript": "^5.1.6"
+	},
+	"files": [
+		"dist/"
+	],
+	"keywords": []
+}

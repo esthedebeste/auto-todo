@@ -1,0 +1,7 @@
+{
+	"arrowParens": "avoid",
+	"tabWidth": 4,
+	"quoteProps": "as-needed",
+	"semi": false,
+	"useTabs": true
+}
